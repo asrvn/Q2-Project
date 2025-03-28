@@ -11,6 +11,7 @@ import numpy as np
 import os
 
 class ImprovedContextAwareWeightedKNN:
+    
     def __init__(self, k_min = 3, k_max = 15, r = 10, epsilon = 1e-5, decision_threshold = 0.0, alpha = 0.5, beta = 0.5, lambda_reg = 1e-3):
 
         self.k_min = k_min
