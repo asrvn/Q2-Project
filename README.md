@@ -1,2 +1,5 @@
-# Q2-Project
-Source code for Quarter 2 Project for Machine Learning course instructed by Dr. Selma Yilmaz at TJHSST
+# Quarter 2 Project
+Instructed by Dr. Yilmaz in Room 202
+
+
+For personal use only.
