@@ -3,7 +3,7 @@ Instructed by Dr. Yilmaz in Room 202
 
 Context-aware methods are increasingly implemented to enhance classification algorithms in high-dimensional, noisy environments. Traditional K-Nearest Neighbors (KNN) struggles in these environments because it uses a fixed neighborhood size and equal feature weights, which fail to capture local variations present in complex data such as electrocardiogram (ECG) signals. We propose an improved context-aware weighted KNN algorithm that dynamically adjusts its neighborhood size based on local data density and assigns feature weights derived from both mutual information and Pearson correlation. Experiments on the UCI Arrhythmia dataset reveal that our method enhances class separability and overall classification performance, achieving an accuracy of up to 71.43% with optimized parameters. These results indicate strong potential for future clinical applications and further research in adaptive classification methods.
 
-Steps to Reproduce Our Most Effective Model:
+Steps to Reproduce:
 
 1. Download all sources from this repository
 2. Run the preprocess.py file, ensuring the `dataset_path` variable points to the UCI arrhythmia dataset CSV file
